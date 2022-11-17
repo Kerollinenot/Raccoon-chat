@@ -1,0 +1,48 @@
+.message {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: rgb(166, 231, 226);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px 25px;
+    max-width: 400px;
+    word-break: break-all;
+    font-family: 'Neucha', cursive;
+}
+
+.message:last-child {
+    margin-bottom: 30px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.user-avatar {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.user-name {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.start {
+    justify-self: flex-start;
+    border-bottom-left-radius: 0;
+}
+
+.end {
+    align-self: flex-end;
+    border-bottom-right-radius: 0;
+}

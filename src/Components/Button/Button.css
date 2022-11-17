@@ -1,0 +1,40 @@
+.btn {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 5px;
+   color: white;
+   border: none;
+   padding: 10px;
+   cursor: pointer;
+}
+
+.btn--not--color {
+   background: none;
+}
+
+.btn--grey {
+   background-color: rgb(145, 145, 145);
+}
+
+.btn--lightblue {
+   background-color: #8492db;
+   color: black
+}
+
+.btn--small {
+   font-size: 14px;
+}
+
+.btn--medium {
+   font-size: 18px;
+}
+
+.btn--large {
+   font-size: 30px;
+   padding: 20px;
+}
+
+.not-border-radius {
+   border-radius: 0;
+}
